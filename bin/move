@@ -5,6 +5,6 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
-puts "Enter 1~9 to indicate which location you'd like to fill in:"
+puts "Where would you like to go?"
 loc = gets.strip
 index = input_to_index(loc)
